@@ -1,0 +1,8 @@
+{
+    "user": {
+      "name": "adam",
+      "role": "admin"
+    },
+    "tenant": "bank1",
+    "action": "view_account"
+}

@@ -1,1 +1,0 @@
-opa eval -b policies -i input.json "data.main.decisions.view_account"

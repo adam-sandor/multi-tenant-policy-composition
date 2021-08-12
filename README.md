@@ -13,6 +13,14 @@ generic rules. If the same rule is defined both in the tenant (and it is denied)
 rule will take precedence. To allow for this each applied rule has to specify its rule_id which is used to match
 rule decisions coming from the generic rule set with the tenant rules.
 
+## How to run the sample
+
+You can use `opa eval` to run the sample with different inputs:
+
+```
+opa eval -b policies -i input-adam.json "data.main"
+```
+
 ## How to use this IRL?
 
 In a real-world scenario the tenant rules would live in their own repositories assembled together into an OPA bundle
