@@ -1,0 +1,18 @@
+discovery:
+  name: discovery
+  resource: /systems/ebf13f89f4294108ba503169300e8154/discovery
+  service: styra
+labels:
+  system-id: ebf13f89f4294108ba503169300e8154
+  system-type: custom
+services:
+- credentials:
+    bearer:
+      token: YxZRVIgkglJJ7Hr4TUjGqD7DWv6AvI3JC6zFcGB55Yd8djE6cUf9u7o81Ud91VNRjlN1aW5zuvnUyPuIkD3-HWCfeQ
+  name: styra
+  url: https://adamsandor.svc.styra.com/v1
+- credentials:
+    bearer:
+      token: YxZRVIgkglJJ7Hr4TUjGqD7DWv6AvI3JC6zFcGB55Yd8djE6cUf9u7o81Ud91VNRjlN1aW5zuvnUyPuIkD3-HWCfeQ
+  name: styra-bundles
+  url: https://adamsandor.svc.styra.com/v1/bundles
