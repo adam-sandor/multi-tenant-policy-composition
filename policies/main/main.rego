@@ -26,6 +26,3 @@ enforce_key(key) = enforced_by_generic[key] { not enforced_by_tenant[key] }
 
 decision["allow"] = count(enforce) == 0
 decision["reason"] = concat(" | ", { msg | msg := enforce[_].message })
-
-# allow general rules to specify that they cannot be overruled
-# allow overruling in both directions (allow=true/false)

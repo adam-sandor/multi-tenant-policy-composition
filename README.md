@@ -27,3 +27,8 @@ In a real-world scenario the tenant rules would live in their own repositories a
 when any of them changes. For example the Library functionality in [Styra DAS](https://styra.com) can be used to achieve this. 
 Each tenant will be able to manage their own rules while the generic rule set can be controlled by let's say the central
 security team.
+
+## TODO
+
+* allow general rules to specify that they cannot be overruled
+* allow overruling in both directions (allow=true/false)
