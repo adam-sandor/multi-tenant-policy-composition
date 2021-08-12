@@ -1,7 +1,7 @@
 {
     "user": {
       "name": "adam",
-      "role": "customer"
+      "role": "admin"
     },
     "tenant": "bank2",
     "action": "view_account"

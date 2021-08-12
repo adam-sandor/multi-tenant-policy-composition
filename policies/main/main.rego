@@ -1,16 +1,16 @@
 package main
 
-enforced_by_generic[rule] = decision {
+enforced_by_generic[rule_id] = decision {
      some i
      data.tenants.generic.enforce[i]
      decision := data.tenants.generic.enforce[i]
-     rule := decision.rule
+     rule_id := decision.rule_id
 }
-enforced_by_tenant[rule] = decision {
+enforced_by_tenant[rule_id] = decision {
     some i
     data.tenants[input.tenant].enforce[i]
     decision := data.tenants[input.tenant].enforce[i]
-    rule := decision.rule
+    rule_id := decision.rule_id
 }
 
 enforce = decisions {

@@ -7,6 +7,6 @@ enforce[decision] {
 
   decision := {
       "message": "Generic: Customers and Admins can view their accounts",
-      "rule": "view_account"
+      "rule_id": "view_account"
   }
 }

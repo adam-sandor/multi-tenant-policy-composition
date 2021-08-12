@@ -7,6 +7,6 @@ enforce[decision] {
 
   decision := {
       "message": "Bank1: only admins can view their accounts",
-      "rule": "view_account"
+      "rule_id": "view_account"
   }
 }
