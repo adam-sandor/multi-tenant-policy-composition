@@ -1,4 +1,4 @@
-package tenants.all
+package tenants.generic
 
 enforce[decision] {
 
